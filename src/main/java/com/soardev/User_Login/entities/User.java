@@ -22,6 +22,9 @@ public class User {
     @Size(min = 6)
     private String password;
 
+    public User(){
+    }
+
     public User(String email, String password){
         this.email = email;
         this.password = password;
